@@ -1,0 +1,28 @@
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    width: 300px;
+    text-align: justify
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h3 {
+    color: rgb(0, 162, 255);
+}
